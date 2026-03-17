@@ -1,3 +1,14 @@
+"homepage": "https://yourusername.github.io/your-repo-name",
+
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+},
+
 import React, { useState, useEffect, useRef } from 'react';
 import { 
   Menu, 
